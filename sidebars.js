@@ -14,7 +14,15 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  docs: ['intro', 'virtual-dev-setup', 'CTRPF-dev-setup', 'VSCode-setup']
+  docs: [
+    'intro',
+    {
+      type: 'category',
+      label: '仮想環境の構築',
+      items: ['virtual-dev-setup/virtual-dev-setup']
+    },
+    'CTRPF-dev-setup', 'VSCode-setup',
+  ],
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
