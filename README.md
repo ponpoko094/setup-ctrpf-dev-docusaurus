@@ -1,4 +1,4 @@
-# CTRPFをVSCodeとGitHubで開発してみよう
+# CTRPFをVS CodeとGitHubで開発してみよう
 
 ドキュメントは[こちら](https://setup-ctrpf-dev.netlify.app/)
 
