@@ -37,7 +37,16 @@ const sidebars = {
         'ctrpf-dev-setup/ctrpf-source-download'
       ]
     },
-    'VSCode-setup',
+    {
+      type: 'category',
+      label: 'VS Codeの環境を構築する',
+      items: [
+        'vscode-setup/vscode-install',
+        'vscode-setup/vscode-japanese',
+        'vscode-setup/cpp-setup',
+        'vscode-setup/git-setup',
+      ]
+    }
   ],
   // But you can create a sidebar manually
   /*
