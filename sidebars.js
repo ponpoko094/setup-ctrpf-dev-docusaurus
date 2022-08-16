@@ -18,10 +18,26 @@ const sidebars = {
     'intro',
     {
       type: 'category',
-      label: '仮想環境の構築',
-      items: ['virtual-dev-setup/virtual-dev-setup']
+      label: '仮想環境の構築 (任意)',
+      items: [
+        'virtual-dev-setup/windows10-iso-download',
+        'virtual-dev-setup/vmware-install',
+        'virtual-dev-setup/vmware-windows10-run',
+        'virtual-dev-setup/vmware-tools-install'
+      ]
     },
-    'CTRPF-dev-setup', 'VSCode-setup',
+    {
+      type: 'category',
+      label: 'CTRPFの開発環境を構築する',
+      items: [
+        'ctrpf-dev-setup/preparation',
+        'ctrpf-dev-setup/devkitpro-install',
+        'ctrpf-dev-setup/libctrpf-install',
+        'ctrpf-dev-setup/3gxtool-install',
+        'ctrpf-dev-setup/ctrpf-source-download'
+      ]
+    },
+    'VSCode-setup',
   ],
   // But you can create a sidebar manually
   /*
